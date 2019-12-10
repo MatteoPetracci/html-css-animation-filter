@@ -162,7 +162,6 @@
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
 
 /* esercizio 11 */
 
@@ -183,5 +182,47 @@
     transform: rotate();
   }
 }
-=======
->>>>>>> master
+
+/* esercizio 12 */
+
+.ex-12-top-white {
+  animation-name: move_line;
+  animation-duration: 2s;
+  animation-iteration-count: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move_line {
+  0% {
+    left: 10%;
+  }
+
+  75% {
+    left: 60%;
+  }
+
+  0% {
+    left: 10%;
+  }
+}
+
+.ex-12-bottom-white {
+  animation-name: move_line_2;
+  animation-duration: 2s;
+  animation-iteration-count: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move_line_2 {
+  0% {
+    right: 20%;
+  }
+
+  75% {
+    right: 60%;
+  }
+
+  0% {
+    right: 20%;
+  }
+}
