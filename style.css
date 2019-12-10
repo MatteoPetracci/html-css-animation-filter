@@ -126,3 +126,11 @@
   filter: sepia(1);
   transition: 2s;
 }
+
+/*  esercizio 8 */
+
+.ex-8-img:hover {
+  border-radius: 10px;
+  transition: 3s;
+  filter: sepia(1);
+}
