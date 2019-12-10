@@ -92,3 +92,10 @@
   transition: 4s;
   border-radius: 50%;
 }
+
+/* esercizio 4 */
+
+.ex-4-square:hover {
+  transition: 4s;
+  opacity: 0;
+}
