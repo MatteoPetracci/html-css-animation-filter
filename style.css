@@ -134,3 +134,12 @@
   transition: 3s;
   filter: sepia(1);
 }
+
+/* esercizio 9 */
+
+.ex-9-img:hover {
+  transition: 3s;
+  transform: scale(1.6);
+  border-radius: 20px;
+  filter: sepia(1);
+}
