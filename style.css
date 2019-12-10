@@ -119,3 +119,10 @@
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+/* esercizio 7 */
+
+.ex-7-img:hover {
+  filter: sepia(1);
+  transition: 2s;
+}
