@@ -143,3 +143,22 @@
   border-radius: 20px;
   filter: sepia(1);
 }
+
+/* esercizio 10 */
+
+.ex-10-icon {
+  animation-duration: 0.7s;
+  animation-delay: 2s;
+  animation-name: move_icon;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move_icon {
+  from {
+    transform: rotate();
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
