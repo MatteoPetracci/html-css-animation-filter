@@ -99,3 +99,17 @@
   transition: 4s;
   opacity: 0;
 }
+
+/* esercizio 5 */
+
+.ex-5-square:hover {
+  width: 120px;
+  height: 120px;
+  transition: 2s;
+}
+
+.ex-5-square:active {
+  width: 30px;
+  height: 30px;
+  transition: 2s;
+}
